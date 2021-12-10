@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    margin: 0 ;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.bg-img{
+    background-color: skyblue;
+    background: url('images/bg.jpg');
+    text-align: center;
+    color: white;
+    background-size: cover;
+    padding-bottom: 3em;
+   display: flex;
+   
+   
+}
+
+section{
+    margin: 0 1em;
+}
+header{
+    padding: 1em 0 1em 0;
+    font-weight: bold;
+}
+
+.bg-img h3{
+    padding-top: 1em;
+}
+
+.bg-img h1{
+    padding-bottom: 0.1em;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.bg-img p{
+    padding: 0.5em 2em;
+    font-weight: bold;
+    font-size: 0.7rem;
+
+}
+
+.form-container{
+    background-color: white;
+    padding-bottom: 4em;
+    border-radius: 0.5em;
+   
+    
+    
+}
+
+.form-container label{
+    color: darkorange;
+    display: block;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 2em;
+}
+
+.form-container input[type=text]{
+    color: black;
+    padding: 0.4em  10em;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    width: 90%;
+    
+   
+    
+    
+}
+
+.form-container p{
+    color: gray;
+    padding-bottom: -45.6em;
+    font-weight: lighter;
+}
+
+.form-container input[type=button]{
+    background-color: orange;
+    border: none;
+    width: 90%;
+    color: white;
+    font-weight: bold;
+    padding: 1em 1em 1em 1em;
+    margin:  0em 0.0em;
+    border-radius: .5em;
+    cursor: pointer;
+   
+
+   
+}
+
+.form-container input[type=button]:hover{
+    background-color: darkorange;
+    
+}
+
+.section-left img{
+    height: auto;
+    width: 95%;
+    padding: 1em ;
+}
+
+.section-right h1{
+   text-align: center;
+   font-weight: lighter;
+}
+
+@media (min-width:730px){
+    .bg-img{
+        text-align: left;
+        background-size:cover;
+        width: auto;
+        background-repeat: no-repeat;
+        display: flex;
+        background-attachment: fixed;
+        background-position: top center;
+        
+        
+    }
+
+    .bg-img p{
+        padding: 0.5em 0.5em;
+        font-weight: bold;
+        font-size: 0.7rem;
+    
+    }
+    section{
+        margin: 0 2em;
+    }
+
+    form{
+        display: flex;
+
+    }
+    
+    .form-left{
+        margin-left: 1em;
+    }
+    .form-left label{
+        margin-left: -1.5em;
+    }
+    
+    .form-container input[type=button]{
+        background-color: orange;
+        border: none;
+        width: 90%;
+        color: white;
+        font-weight: bold;
+        padding: 1em 1em 1em 1em;
+        margin:  0em 0.0em;
+        border-radius: .5em;
+        cursor: pointer;
+       
+    
+       
+    }
+    .form-container input[type=button]{
+        height: 8%;
+        width: 31%;
+        font-size: 0.7rem;
+        margin-top: 5.6em;
+        margin-right: 5em;
+
+        
+       
+    }
+
+    .form-container input[type=text]{
+       
+        padding: 0.4em  2em;
+        
+    }
+
+    .form-container{
+        width: 45%;
+
+
+    }
+    .bottom{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "bowls content";
+        
+    }
+    .section-right{
+        padding: 1em 1em;
+        grid-area: content;
+    }
+
+    .section-left img{
+        height: 100%;
+        width: 100%;
+        margin-left: -1.9em;
+        grid-area: bowls;
+       
+    }
+    
+
+    
+
+}
+
+
+
